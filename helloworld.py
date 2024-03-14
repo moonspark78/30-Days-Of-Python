@@ -59,3 +59,12 @@ tuple = (1, 2, 3, 4, 5, 6, 7)
 ensemble = {1,1,2,2,3,3,}
 #Dictionary
 dic = {"a":1, "b":2, "c":4}
+
+#Question  Euclidian distance : 
+import math
+
+point1 = (2, 3)
+point2 = (10, 8)
+
+distance = math.sqrt((point2[0]-point1[0])**2 + (point2[1]- point1[1])**2);
+print(f"La distance euclidean entre les Deux points est :, {distance:.2f}");
