@@ -47,3 +47,20 @@ remainder= num_two%num_one;
 exp = num_one**num_two;
 floor_division= num_one // num_two;
 
+# 5-
+import math
+area_of_circle= math.pi * 30**2
+
+circum_of_circle= math.pi * (30*2)
+
+radius = int(input("quelle est le rayon"))
+area = math.pi * radius**2
+
+# 6-
+first = input("Enter your first name:")
+last = input("Enter your last name:")
+country = input("Enter your country:")
+age = int(input("Enter your age:"));
+
+# 7-
+help('keywords')
