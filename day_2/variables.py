@@ -7,11 +7,43 @@ full_name= first_name + " " + last_name;
 country= "US";
 city= "San Francisco";
 age=20;
-year = "2009";
+year = 2009;
 is_married = True;
 is_true = True;
 is_light_on = True;
 email, user = "John@gmail.com", "johnelton";
 
-#Exercises: Level 2 
+
+#Exercises: Level 2
+# 1-
+print(type(first_name));
+print(type(last_name));
+print(type(full_name));
+print(type(country));
+print(type(city));
+print(type(age));
+print(type(year));
+print(type(is_married));
+print(type(is_true));
+print(type(is_light_on));
+print(type(email));
+print(type(user));
+
+
+# 2-
+print(len(first_name));
+
+# 3-
+print(len(first_name) > len(last_name));
+
+# 4-
+num_one= 5; 
+num_two= 4;
+total = num_one + num_two;
+diff = num_one - num_two;
+product= num_one*num_two;
+division = num_one/num_two;
+remainder= num_two%num_one; 
+exp = num_one**num_two;
+floor_division= num_one // num_two;
 
