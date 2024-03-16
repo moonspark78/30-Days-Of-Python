@@ -11,12 +11,17 @@ complix = 2 +4j;
 c_number = complex(3,4);
 
 #4
-base = int(input("Entrer base : "))
-height = int(input("Entrer height : "))
-area =  int(0.5 * base * height);
-print("The area of the triangle is  ", area)
+#base = int(input("Entrer base : "))
+#height = int(input("Entrer height : "))
+#area =  int(0.5 * base * height);
+#print("The area of the triangle is  ", area)
 
 #5
+side_a = int(input("Enter side a : "));
+side_b = int(input("Enter side b : "));
+side_c = int(input("Enter side c : "));
+perim = (side_a+side_b+side_c)
+print("The perimeter of the triangle is" , perim);
 
 #6
 
